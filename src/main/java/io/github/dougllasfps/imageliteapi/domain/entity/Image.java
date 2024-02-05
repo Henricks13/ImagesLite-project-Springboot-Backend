@@ -37,6 +37,6 @@ public class Image {
     private String tags;
     @Column
     @Lob
-    private byte[] bytes;
+    private byte[] file;
 
 }
