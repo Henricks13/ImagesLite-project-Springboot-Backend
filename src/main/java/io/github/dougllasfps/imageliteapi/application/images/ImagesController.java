@@ -17,7 +17,7 @@ import java.net.URI;
 import java.util.List;
 import java.util.stream.Collectors;
 
-@RestController @RequestMapping("v1/images") @Slf4j @RequiredArgsConstructor @CrossOrigin("*")
+@RestController @RequestMapping("v1/images") @Slf4j @RequiredArgsConstructor
 public class ImagesController {
 
     private final ImageService service;
